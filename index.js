@@ -1,7 +1,7 @@
 const express = require('express')
 const parser = require('body-parser')
 
-const Author = require('./db/connection.js')
+const Author = require('./db/schema.js')
 
 const app = express()
 
